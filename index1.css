@@ -1,0 +1,31 @@
+header {
+    grid-area: header;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}
+
+nav {
+    grid-area: nav;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+main {
+    grid-area: main;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+aside {
+    grid-area: aside;
+    background-color: #ccc;
+    padding: 10px;
+}
+
+footer {
+    grid-area: footer;
+    background-color: #333;
+    color: white;
+    padding: 10px;
+}

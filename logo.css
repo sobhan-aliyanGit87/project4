@@ -1,0 +1,15 @@
+.logo-container {
+    width: 250px; /* اندازه دایره */
+    height: 250px; /* اندازه دایره */
+    border-radius: 50%; /* تبدیل به دایره */
+    overflow: hidden; /* جلوگیری از نمایش خارج از دایره */
+    margin: 25px;
+     box-shadow: 8px 8px 11px rgb(0, 0, 0);
+}
+
+.logo-container img {
+    width: 100%; /* پر کردن دایره با عکس */
+    height: 100%; /* پر کردن دایره با عکس */
+    object-fit: cover; /* تنظیم متناسب با اندازه دایره */
+    
+}
